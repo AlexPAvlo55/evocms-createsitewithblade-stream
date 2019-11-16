@@ -30,9 +30,9 @@ class StreamServiceProvider extends ServiceProvider
             dirname(__DIR__) . '/plugins/'
         );*/
         //use this code for each module what you want add
-        /*$this->app->registerModule(
-            'module from file',
+        $this->app->registerModule(
+            'Комменатрии',
             dirname(__DIR__).'/modules/module.php'
-        );*/
+        );
     }
 }
